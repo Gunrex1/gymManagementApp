@@ -1,8 +1,3 @@
-Absolutely! Here’s a detailed, professional `README.md` for your **Gym Management System** project, modeled after the style you provided.  
-You can copy-paste this directly to your GitHub repository.
-
----
-
 # 🏋️‍♂️ Gym Management System
 
 A modern, responsive gym management web application built with PHP, MySQL, HTML, and CSS. This system streamlines gym operations, allowing administrators to manage members, trainers, bookings, and more, all from a user-friendly dashboard.
