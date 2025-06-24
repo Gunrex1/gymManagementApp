@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <li><a href="index.html">Home</a></li>
+</head>
+<body>
+
+<h2>Members Login</h2>
+
+<form name="loginForm" action="login_process.php" method="post" onsubmit="return validateForm()">
+    <label for="username">Username:</label>
+    <input type="text" name="username" required>
+    <br>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" required>
+    <br>
+
+    <input type="submit" value="Login">
+</form>
+<br>
+If not a member:<a href="registration.html">Register</a>
+
+<style>
+    li {
+        background: rgba(129, 128, 128, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        filter: blur(0.2px);
+        color: blanchedalmond;
+    }
+
+    a {
+        background: rgba(129, 128, 128, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        filter: blur(0.2px);
+        color: blanchedalmond;
+    }
+</style>
+
+</body>
+</html>

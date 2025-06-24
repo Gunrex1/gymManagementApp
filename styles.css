@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(modern-home-gym-1024x576.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Set the background to be fixed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 10;
+    left: 10;
+    width: 30%;
+    height: 70%;
+    background: url(modern-home-gym-1024x576.jpg); /* Use the same background image */
+    background-size: cover;
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    z-index: -1; /* Place the blurred background behind other content */
+}
+
+header {
+    background-color: #eee2e2;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 2; /* Ensure header is above the blurred background */
+}
+
+nav {
+    margin-top: 10px;
+    z-index: 2; /* Ensure navigation is above the blurred background */
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+}
+
+table {
+    background-color: #868585;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #fff;
+}
